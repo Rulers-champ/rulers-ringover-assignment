@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import logo from './img/websitelogo.png';
 import userlogo from './img/profile-user.png';
-import './Header.css';
+import '../styling/Header.css';
 
 function Header()
 {

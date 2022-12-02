@@ -1,8 +1,8 @@
 import React from 'react';
-import linkedin from './img/linkedin.png';
-import insta from './img/insta@3x.png';
-import fb from './img/facebook@3x.png';
-import './Contacts.css';
+import linkedin from '../components/img/linkedin.png';
+import insta from '../components/img/insta@3x.png';
+import fb from '../components/img/facebook@3x.png';
+import '../styling/Contacts.css';
 
 function Contact()
 {

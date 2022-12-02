@@ -17,6 +17,7 @@ import White2 from './img/White-2.jpeg';
 const products=[
     {
         id:1,
+        name:'KSL01',
         color:'black',
         price:2999,
         rating:4.7,
@@ -24,6 +25,7 @@ const products=[
     },
     {
         id:2,
+        name:'KSL02',
         color:'black',
         price:2500,
         rating:4.2,
@@ -31,6 +33,7 @@ const products=[
     },
     {
         id:3,
+        name:'KSL03',
         color:'black',
         price:2000,
         rating:3.5,
@@ -38,6 +41,7 @@ const products=[
     },
     {
         id:4,
+        name:'KSL04',
         color:'blue',
         price:1500,
         rating:3.9,
@@ -45,6 +49,7 @@ const products=[
     },
     {
         id:5,
+        name:'KWL01',
         color:'blue',
         price:3100,
         rating:4.8,
@@ -52,6 +57,7 @@ const products=[
     },
     {
         id:6,
+        name:'KWL02',
         color:'blue',
         price:1500,
         rating:2.5,
@@ -59,6 +65,7 @@ const products=[
     },
     {
         id:7,
+        name:'KWL03',
         color:'green',
         price:6000,
         rating:4.7,
@@ -66,6 +73,7 @@ const products=[
     },
     {
         id:8,
+        name:'KWL04',
         color:'green',
         price:5500,
         rating:4,
@@ -73,6 +81,7 @@ const products=[
     },
     {
         id:9,
+        name:'KWL05',
         color:'green',
         price:4500,
         rating:4.9,
@@ -80,6 +89,7 @@ const products=[
     },
     {
         id:10,
+        name:'KWL06',
         color:'green',
         price:4500,
         rating:3.8,
@@ -87,13 +97,15 @@ const products=[
     },
     {
         id:11,
+        name:'KGL01',
         color:'red',
-        price:2900,
+        price:7800,
         rating:2.9,
         src:Red1
     },
     {
         id:12,
+        name:'KGL02',
         color:'red',
         price:2900,
         rating:3,
@@ -101,13 +113,15 @@ const products=[
     },
     {
         id:13,
+        name:'KGL03',
         color:'white',
-        price:1200,
+        price:7500,
         rating:3.4,
         src:White1
     },
     {
         id:14,
+        name:'KGL04',
         color:'white',
         price:3000,
         rating:3.8,

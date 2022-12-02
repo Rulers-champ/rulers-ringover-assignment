@@ -1,6 +1,6 @@
 import React from 'react';
-import members from './Members';
-import MemberBlock from './MemberBlock';
+import members from '../components/Members';
+import MemberBlock from '../components/MemberBlock';
 
 function Team()
 {
@@ -11,8 +11,8 @@ function Team()
          <div className='team-wrapper'>
            
            {members.map(item=>{
-              return <MemberBlock name={item.name} src={item.src} role={item.role} />;
-           })};
+              return <MemberBlock name={item.name} src={item.src} role={item.role} />
+           })}
 
          </div> 
 

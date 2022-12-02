@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-import App from './components/App';
+import App from './App';
+import { Context } from './Context';
 
-ReactDom.render(<App /> ,document.getElementById('root'));
+
+ReactDom.render( <Context><App /></Context> ,document.getElementById('root'));

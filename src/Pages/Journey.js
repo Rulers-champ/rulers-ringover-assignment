@@ -1,6 +1,6 @@
 import React from 'react';
-import bgImg from './img/grasspic.jpg';
-import './Journey.css';
+import bgImg from '../components/img/grasspic.jpg';
+import '../styling/Journey.css';
 
 function Journey()
 {
@@ -23,6 +23,7 @@ function Journey()
 
               <div className='block '>
                  <h4>CHAPTER I</h4>
+                 <br/>
                  <p>It is a long established fact that a reader will be distracted by the readable content of a 
                  page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
                  as opposed to using 'Content here, content here', making it look like readable English.Various versions have evolved over the years, 
@@ -30,6 +31,7 @@ function Journey()
               </div>
               <div className='block '>
                  <h4>CHAPTER II</h4>
+                 <br/>
                  <p>It is a long established fact that a reader will be distracted by the readable content of a 
                  page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
                  as opposed to using 'Content here, content here', making it look like readable English.Various versions have evolved over the years,
@@ -37,6 +39,7 @@ function Journey()
               </div>
               <div className='block-2 sm-block'>
                  <h4>kICKSUP</h4>
+                 <br/>
                  <p>It is a long established fact that a reader will be distracted by the readable content of a 
                  page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
                  as opposed to using 'Content here, content here', making it look like readable English.Various versions have evolved over the years,

@@ -2,20 +2,34 @@
     width:100%;
     background-color:  	 	#E8E8E8;
     position: relative;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .product-img{
     width:100%;
     height: auto;
     margin:none;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
 }
 .product-flexbox{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 8px;
+}
+
+h4{
+    margin-bottom: none;
 }
 
 .product-footer{
     padding: 0.4rem;
+}
+
+.product-cart-icon{
+    width:20px;
+    height: auto;
 }
 
 .stars-outer{
@@ -37,7 +51,7 @@
     font-size: 1rem;
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color:#fff;
+    color:rgb(214, 210, 210);
     
 }
 .stars-inner::before{
@@ -59,3 +73,4 @@
     width:22px;
     height:22px;
 }
+

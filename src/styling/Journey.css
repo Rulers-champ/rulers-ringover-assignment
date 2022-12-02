@@ -5,7 +5,7 @@
 
 section{
 
-    background-image: url(img/grasspic.jpg);
+    background-image: url(../components/img/grasspic.jpg);
     background-repeat: no-repeat;
    
     background-size: cover;
@@ -22,7 +22,7 @@ h1{
     
 }
 
-h4{
+.block-1 h4{
     margin-bottom: 0.8rem;
 }
 .wrapper{

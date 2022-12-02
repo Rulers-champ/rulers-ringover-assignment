@@ -109,6 +109,7 @@ input{
     
 }
 .cart-flow{
+    padding: 8px;
     height:80%;
    overflow-y: scroll;
 }
